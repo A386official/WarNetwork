@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html dir="ltr" class="dark" id="html" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <!-- Optimization -->
+        <link rel="preload" href="custom/templates/Cobalt/js/core/mod.min.js" as="script">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link rel="preload" href="npm/bootstrap-4.6.1/dist/css/bootstrap.min.css" as="style">
+        <!-- Early loading scripts -->
+        <script src="custom/templates/Cobalt/js/core/mod.min.js"></script>
+        <title>Home • WarNetwork</title>
+        <link rel="canonical" href="https://WarNetwork.net">
+        <meta name="title" content="Home • WarNetwork">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="theme-color" content="#1d1d1d">
+        <meta name="keywords" content=" ">
+        <meta name="description" content=" ">
+        <!-- Opengraph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://WarNetwork.net/">
+        <meta property="og:site_name" content="WarNetwork">
+        <meta property="og:title" content="Home • WarNetwork">
+        <meta property="og:description" content=" ">
+        <!-- Twitter -->
+        <meta property="twitter:url" content="https://WarNetwork.net/">
+        <meta property="twitter:title" content="Home • WarNetwork">
+        <meta property="twitter:description" content=" ">
+        <link rel="stylesheet" href="core/assets/vendor/-fortawesome/fontawesome-free/css/all.min.css">
+        <link rel="stylesheet" href="core/assets/plugins/prism/prism_light_default.css">
+        <link rel="stylesheet" href="core/assets/plugins/tinymce_spoiler/css/spoiler.css">
+        <link rel="stylesheet" href="npm/bootstrap-4.6.1/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="custom/templates/Cobalt/css/cobalt.css">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&amp;display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <style>:root { --p-color: #E5733C; } /* Primary Color */.discord-text .st0, .status-text path, .discord-icon .st0, .status-icon path { fill: var(--p-color) !important; } .swal2-icon.swal2-info, .cobalt-update-box .update-icon, .header-theme, .news-title, .top-text, .error-title, .lr-title, .p-icon, .theme-text, .other-btn:after, .other-btn:focus:after, .footer-text-header:after, .widget-header-txt:after, .discord-text .icon:after, .status-text .icon:after, .wiki-page-card span strong, .dropdown-item.d-header, .rules-menu .active span, .rules-menu .active i, .welcome-title { color: var(--p-color) !important; } a, a:hover, a:focus { color: var(--p-color); } .color-overlay { background: linear-gradient(var(--p-color), #101010); } .swal2-icon.swal2-info, .page-item.active .page-link, .user-nav-link.active, .profile-about-box, .rules-menu-link.active { border-color: #E5733C !important; } .swal2-styled.swal2-confirm, .widget-header-txt:after, .discord-text .icon:after, .status-text .icon:after, .nav-link.store-link, .footer-text-header:after, .badge-theme, #toast-container, .progress-bar, .login-overlay, .register-overlay, .vote-tabs .btn.btn-theme.active, .p-color-overlay, .modal-header, .btn-theme, .button-checkbox>.active, .spoiler .spoiler-toggle, .spoiler .spoiler-title, .page-item.active .page-link, .btn.profile-btn.active:after, .cc-window.cc-floating .cc-highlight .cc-btn.cc-allow { background-color: var(--p-color) !important; } .swal2-styled.swal2-confirm:hover, .spoiler .spoiler-toggle:hover, .spoiler .spoiler-title:hover, .btn-theme:hover { background-color: var(--p-color) !important; filter: brightness(0.85); } .wiki-menu .active.dropdown-toggle::after { border-top-color: var(--p-color) !important; border-bottom-color: var(--p-color) !important; } /* Header */.header:after { height: 227.5px; background: linear-gradient(rgba(0, 0, 0, 0.4), transparent); } .header:before { background: linear-gradient(rgba(0, 0, 0, 0.4), #101010); } .header { background-position: center bottom !important; } @media (min-width: 769px) { .header {  height: 475px; } } @media (max-width: 768px) { .header {  height: 340px; } } @media (min-width: 769px) { .logo {  height: 200px;  margin-top: 122.5px; } } @media (max-width: 768px) { .logo {  height: 130px;  margin-top: 85px; } } .status-text, .discord-text { margin-top: 203.5px; } @media (max-width: 1050px) { .status-box-container .text, .discord-box-container .text {  display: none; } } .line-scale > div { background-color: #FFFFFF; } /* Other */.login-overlay, .register-overlay { opacity: 0.5 !important; }</style>
+        <style>.navbar-nav .nav-item:first-child { margin-left: -15px !important; }</style>
+        <style>.webp .header { background: url('uploads/5af819ac0ae8f6d18658c24092a40388924fa038headerbg.webp') no-repeat; }</style>
+        <style>.no-webp .header { background: url('uploads/Spooky_scene._Midnight_sky_Scary_witch_house_fog.jpg') no-repeat; }</style>
+        <style>.navbar-bottom .store-link:after, .navbar-bottom .store-link:focus:after, .navbar-top-new .store-link:after, .navbar-top-new .store-link:focus:after { box-shadow: 0px 0px 12px 0px #E5733C; }</style>
+        <style>.p-image-frame { z-index: 1; opacity: 0.7; }</style>
+        <style>.store-box { border: 3px solid #E5733C; box-shadow: 0 0 10px rgb(229 115 60 / 50%); } .webp .store-box { background: linear-gradient(to bottom, rgba(229 115 60 / 70%), rgba(229 115 60 / 70%)); } .no-webp .store-box { background: linear-gradient(to bottom, rgba(229 115 60 / 70%), rgba(229 115 60 / 70%)); }</style>
+    </head>
+    <body>
+        <div class="load-wrapper">
+            <div class="loader">
+                <div class="loader-inner line-scale">
+                    <div>v</div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-theme navbar-double navbar-top-new">
+            <div class="container"> 
+                <button class="navbar-toggler nav-link" type="button"> <i class="fa-solid fa-bars"></i> Menu 
+                </button>
+                <div class="status-icon" onclick="copyToClipboard('Play.warsmp.fun')">
+                    <svg class="creeper" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4,2H20A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4A2,2 0 0,1 4,2M6,6V10H10V12H8V18H10V16H14V18H16V12H14V10H18V6H14V10H10V6H6Z"> 
+</path>                         
+                    </svg>                     
+                </div>
+                <a href="https://discord.com/invite/edvQWPp" target="_blank"> <div class="discord-icon">
+                        <svg class="discord" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240">
+                            <path class="st0" d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zM140.9 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"> 
+</path>
+                            <path class="st0" d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.7 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.4 1.3-25.9-.1-5.7-1.1-10.6-2.7-14.7-4.3-2.3-.9-4.8-2-7.3-3.4-.3-.2-.6-.3-.9-.5-.2-.1-.3-.2-.4-.3-1.8-1-2.8-1.7-2.8-1.7s4.8 8 17.5 11.8c-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.2-1.2 5.9-2.9c10.7-4.7 19.2-6 22.7-6.3.6-.1 1.1-.2 1.7-.2 6.1-.8 13-1 20.2-.2 9.5 1.1 19.7 3.9 30.1 9.6 0 0-7.9-7.5-24.9-12.7l1.4-1.6s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.5 14.5-30.6 15.2z"> 
+</path>                             
+                        </svg>                         
+                    </div> </a>
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item"> <a class="nav-link nav-link-active" href="index.html"><i class="fas fa-home"></i> Home</a> 
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="rules.html"><i class="fa-solid fa-list"></i>
+                Rules</a> 
+                        </li>
+                        <li class="nav-item"> <a class="nav-link" href="vote.html"><i class="fa-solid fa-heart"></i>
+                Vote</a> 
+                        </li>
+                        <li class="nav-item">                              
+</li>
+                        <li class="nav-item"> <a class="nav-link" href="faq.html"><i class="fa-solid fa-circle-question"></i>
+                FAQ</a> 
+                        </li>
+                        <li class="nav-item">                              
+</li>
+                        <li class="nav-item"> <a class="nav-link store-link" href="https://discord.com/invite/WarNetwork"><i class="fa-solid fa-coins"></i> Store</a> 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="color-overlay">
+            <div class="header" id="header-pjs" style="opacity: 0.6; z-index: 1"></div>
+        </div>
+        <div class="logo-ds-flex">
+            <div class="status-box-container">
+                <div class="status-text" onclick="copyToClipboard('Play.warsmp.fun')">
+                    <div class="text">
+                        <div class="top-text"><span class="server-status">Loading...</span>
+                        </div>
+                        <div class="bottom-text">
+                            <div class="reel-1">Play.warsmp.fun</div>
+                            <div class="reel-1">Click to copy IP</div>
+                        </div>
+                    </div>
+                    <div class="icon">
+                        <div class="icon-wrapper">
+                            <svg class="creeper" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4,2H20A2,2 0 0,1 22,4V20A2,2 0 0,1 20,22H4A2,2 0 0,1 2,20V4A2,2 0 0,1 4,2M6,6V10H10V12H8V18H10V16H14V18H16V12H14V10H18V6H14V10H10V6H6Z"> 
+</path>                                 
+                            </svg>                             
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="logo-container">
+                <picture>
+                    <source srcset="uploads/warsmplogo.png" type="image"> 
+                    <source srcset="uploads/warsmplogo.png"><a href="index.html"><img class="logo animated-logo" alt="logo" src="uploads/warsmplogo.png"></a>
+                </picture>                 
+            </a>             
+        </div>
+        <div class="discord-box-container"> <a href="https://discord.gg/WarNetwork" target="_blank"> <div class="discord-text">
+                    <div class="icon">
+                        <div class="icon-wrapper">
+                            <svg class="discord" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 245 240">
+                                <path class="st0" d="M104.4 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1.1-6.1-4.5-11.1-10.2-11.1zM140.9 103.9c-5.7 0-10.2 5-10.2 11.1s4.6 11.1 10.2 11.1c5.7 0 10.2-5 10.2-11.1s-4.5-11.1-10.2-11.1z"> 
+</path>
+                                <path class="st0" d="M189.5 20h-134C44.2 20 35 29.2 35 40.6v135.2c0 11.4 9.2 20.6 20.5 20.6h113.4l-5.3-18.5 12.8 11.9 12.1 11.2 21.5 19V40.6c0-11.4-9.2-20.6-20.5-20.6zm-38.6 130.6s-3.6-4.3-6.6-8.1c13.1-3.7 18.1-11.9 18.1-11.9-4.1 2.7-8 4.6-11.5 5.9-5 2.1-9.8 3.5-14.5 4.3-9.6 1.8-18.4 1.3-25.9-.1-5.7-1.1-10.6-2.7-14.7-4.3-2.3-.9-4.8-2-7.3-3.4-.3-.2-.6-.3-.9-.5-.2-.1-.3-.2-.4-.3-1.8-1-2.8-1.7-2.8-1.7s4.8 8 17.5 11.8c-3 3.8-6.7 8.3-6.7 8.3-22.1-.7-30.5-15.2-30.5-15.2 0-32.2 14.4-58.3 14.4-58.3 14.4-10.8 28.1-10.5 28.1-10.5l1 1.2c-18 5.2-26.3 13.1-26.3 13.1s2.2-1.2 5.9-2.9c10.7-4.7 19.2-6 22.7-6.3.6-.1 1.1-.2 1.7-.2 6.1-.8 13-1 20.2-.2 9.5 1.1 19.7 3.9 30.1 9.6 0 0-7.9-7.5-24.9-12.7l1.4-1.6s13.7-.3 28.1 10.5c0 0 14.4 26.1 14.4 58.3 0 0-8.5 14.5-30.6 15.2z"> 
+</path>                                 
+                            </svg>                             
+                        </div>
+                    </div>
+                    <div class="text">
+                        <div class="top-text"><span class="discord-status">Loading...</span>
+                        </div>
+                        <div class="bottom-text">
+                            <div class="reel-1">Discord.gg/WarNetwork</div>
+                            <div class="reel-1">Click to join</div>
+                        </div>
+                    </div>
+                </div> </a> 
+        </div>
+    </div>
+    <div class="coldfire-navbar-menu">
+        <div class="nav-header">
+            <div class="nav-header-text theme-text">WarNetwork</div>
+            <div id="nav-header-close" class="nav-header-close btn btn-secondary ml-4"><i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <ul>
+            <li class="nav-item"> <a class="nav-link nav-link-active" href="index.html"><i class="fas fa-home"></i> Home</a> 
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="rules.html"><i class="fa-solid fa-list"></i>
+            Rules</a> 
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="vote.html"><i class="fa-solid fa-heart"></i>
+            Vote</a> 
+            </li>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="faq.html"><i class="fa-solid fa-circle-question"></i>
+            FAQ</a> 
+            </li>
+            </li>
+            <li class="nav-item"> <a class="nav-link" href="https://discord.gg/WarNetwork"><i class="fa-solid fa-coins"></i>
+            Store</a> 
+            </li>
+            <div class="divider"></div>
+            <li class="nav-item"> <a class="nav-link bottom-nav" href="login.html"> <span data-toggle="tooltip" data-placement="right" data-offset="0 10px" title="Discord"><i class="fa-solid fa-arrow-right-to-bracket"></i></span>
+            Discord </a> 
+            </li>
+            <li class="nav-item"> <a class="nav-link bottom-nav" href="register.html"> <span data-toggle="tooltip" data-placement="right" data-offset="0 10px" title="Discord"><i class="fa-solid fa-user-plus"></i></span> Play </a> 
+            </li>
+        </ul>
+    </div>
+    <div class="overlay"></div>
+    <div class="container top-container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="card mb-2 welcome-card">
+                    <div class="card-body">
+                        <div class="welcome-card-flex">
+                            <div class="welcome-av-col"> 
+                                <picture> 
+                                    <source srcset="none" media="(max-width: 20px)">
+                                    <source srcset="3d/skin/earth.png" media="(min-width: 20px)">
+                                    <img alt="Avatar" class="welcome-avatar" style="width: 87px; height: 92px;" src="3d/skin/Earth.png"> 
+                                </picture>                                 
+                            </div>
+                            <div class="welcome-text-col">&nbsp; <span class="welcome-title">Welcome
+                    to WarNetwork!</span> <br> 
+                                &nbsp; <span class="welcome-text">To join our community,
+                    please join our discord server!</span> <br> 
+                            </div>
+                            <div class="welcome-lr-col"> <a class="btn btn-theme" target="" onclick="copyToClipboard('#play-ip')">Play</a> <a class="btn btn-theme" target="" href="https://discord.gg/WarNetwork">Discord</a> 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3"> <a href="https://discord.gg/WarNetwork"> <div class="store-box mb-2">
+                        <div class="store-title">Store</div>
+                        <div class="store-icon"><i class="fas fa-shopping-basket"></i>
+                        </div>
+                        <div class="store-subtitle">Shop now!</div>
+                    </div> </a> 
+            </div>
+        </div>
+        <div class="alert alert-danger" id="ie-message"> Internet Explorer:
+            Internet Explorer is not supported. Please upgrade to a more modern
+            browser. 
+</div>
+        <div class="chatbox mb-3" id="chatbox-top"></div>
+    </div>
+    <div id="loginModal" class="modal fade login-modal-lg" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="login-menu"></div>
+            </div>
+        </div>
+    </div>
+    <div id="registerModal" class="modal fade register-modal-lg" tabindex="-1" role="dialog" aria-labelledby="registerModal" aria-hidden="true">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <div class="register-menu"></div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="loginRegisterError" tabindex="-1" role="dialog" aria-labelledby="loginRegisterErrorLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header"> <span class="modal-title" id="loginRegisterErrorLabel">Error</span>
+                </div>
+                <div class="modal-body"> There was an error loading this menu. The
+                    website owner needs to follow these steps to fix it:<br> 
+                    1. Make sure the hostname value in core/config.php in FTP matches
+                    your site url.<br> 
+                    2. If you are using the www. prefix make sure the force www option
+                    is enabled in StaffCP -&gt; Configuration -&gt; General Settings. 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="post-list mb-4">
+            <div class="post-card-large">
+                <div class="post-card-img"> 
+                    <img src="" alt="" style="top: -27px; left: 0px; width: 896px; height: 324px;">
+                    <img src="uploads/Lifesteal.png" alt="" style="top: -27px; left: 0px; width: 896px; height: 324px;">
+                </div>
+                <div class="post-card-body"> 
+                    <div class="post-card-title"> 
+                        <img src="uploads/hardcore.png" width="55">
+                        <a class="theme-text" href="index.html">LIFESTEAL<br> </a> 
+                    </div>                     
+                    Welcome to the enchanting realm of bloodborne Bites,<br> 
+                    our lifesteal server! Unleash your inner vampire, dive into
+                    thrilling battles, and embark on epic adventures today.<span style="color: rgb(209, 213, 219); font-family: Söhne, ui-sans-serif, system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, Ubuntu, Cantarell, &quot;Noto Sans&quot;, sans-serif, &quot;Helvetica Neue&quot;, Arial, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(68, 70, 84); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;"></span> 
+                    <div class="post-card-footer"> <a href="index.html"><img src="3d/skin/download%20%284%29.png" alt="" style="width: 49px; height: 53px;"></a> 
+                        <div class="full-post-info ml-3 flex-grow-1 mr-3">A386<br> 
+                            <div>May 15th, 2024</div>                             
+                        </div>                         
+                        <div class="readtime">1 minute read</div>                         
+                    </div>                     
+                </div>
+            </div>
+        </div>
+        <ul class="pagination d-inline-flex">
+            <li class="page-item  active "> <br> 
+            </li>
+            <li class="page-item "> <br> 
+            </li>
+            <li class="page-item "> <br> 
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="post-list mb-4">
+            <div class="post-card-large">
+                <div class="post-card-img">
+                    <img src="uploads/Practice.png"> 
+                </div>
+                <div class="post-card-body"> 
+                    <div class="post-card-title"> 
+                        <img src="uploads/Sword.png" width="55">
+                        <a class="theme-text" href="index.html">PvP<br> </a> 
+                    </div>                     
+                    Welcome to the fierce arena of PvP Practice Ground, our intense
+                    training server! Sharpen your skills, engage in thrilling battles,
+                    and dominate today.<br> 
+                    <div class="post-card-footer"> <a href="index.html"><img src="3d/skin/download%20%284%29.png" alt="" style="width: 49px; height: 53px;"></a> 
+                        <div class="full-post-info ml-3 flex-grow-1 mr-3">A386<br> 
+                            <div>May 15th, 2024</div>                             
+                        </div>                         
+                        <div class="readtime">1 minute read</div>                         
+                    </div>                     
+                    <div class="post-card-footer"> </div>                     
+                </div>
+            </div>
+            <div class="h-100 post-card-small">
+                <div class="post-card-img">
+                    <img src="uploads/Anticheat.png"> <a href="post/5-zenith-2022---year-in-review.html"></a>
+                </div>
+                <div class="post-card-body text-capitalize text-center">
+                    <div class="post-card-title"> <a class="theme-text" href="index.html">New Anticheat<br></a> 
+                    </div>
+                    <div class="post-card-title"></div>
+                    <div></div>
+                    <p><span style="font-size: 1rem;"><p class="lead">Are hackers dampening your gaming delight? Bid them farewell by embracing Vulcan, we have added new anticheat upgrade to ours server to ensure 0 cheaters while gaming. Join us to get the best server experience.&nbsp; &nbsp;</p></span></p> 
+                    <div class="post-card-footer"> </div>
+                </div>
+                <div class="post-card-footer outside-footer">
+                    <a href="index.html"></a><a href="index.html"></a>
+                    <a href="profile/lDashi.html"></a>
+                    <img src="3d/skin/download%20%284%29.png" alt="" style="width: 49px; height: 53px;">
+                    <div class="full-post-info ml-3 flex-grow-1 mr-3">
+                        <div class="full-post-author text-danger">A386</div>
+                        <div>May 15th, 2024</div>
+                    </div>
+                    <div class="readtime">2 minute read</div>
+                </div>                 
+                <div> 
+                    <div> 
+                        <div> 
+                            <p><span style="font-size: 1rem;">&nbsp; &nbsp;</span></p> 
+                        </div>                         
+                    </div>                     
+                </div>                 
+            </div>
+            <div class="post-card-small">
+                <div class="post-card-img"> <a href="post/5-zenith-2022---year-in-review.html"></a>
+                    <img src="uploads/Newseason.png">
+                </div>
+                <div class="post-card-body text-capitalize text-center">
+                    <div class="post-card-title"> <a class="theme-text" href="index.html">New Season<br></a> 
+                    </div>
+                    <div class="post-card-title"></div>
+                    <div></div>
+                    <p><span style="font-size: 1rem;"><p class="lead">Get hyped for the new season of WarsMP, Lifesteal Realm! It&apos;s reset time, and we&apos;re bringing you an exciting, fresh start. Get ready for a thrilling journey and epic battles in the year ahead!</p></span></p> 
+                    <div class="post-card-footer"> </div>
+                </div>
+                <div class="post-card-content">
+                    <p></p>
+                </div>
+                <div class="post-card-footer outside-footer">
+                    <a href="profile/lDashi.html"></a>
+                    <img src="3d/skin/download%20%284%29.png" alt="" style="width: 49px; height: 53px;">
+                    <div class="full-post-info ml-3 flex-grow-1 mr-3">
+                        <div class="full-post-author text-danger">A386</div>
+                        <div>May 15th, 2024</div>
+                    </div>
+                    <div class="readtime">2 minute read</div>
+                </div>
+            </div>
+            <div class="post-card-small">
+                <div class="post-card-img"> <a href="post/5-zenith-2022---year-in-review.html"></a>
+                    <img src="uploads/Events.png">
+                </div>
+                <div class="post-card-body text-capitalize text-center">
+                    <div class="post-card-title"> <a class="theme-text" href="index.html">Events<br></a> 
+                    </div>
+                    <div class="post-card-title"></div>
+                    <div></div>
+                    <p><span style="font-size: 1rem;"><p class="lead">After the reset, get ready for weekly events that promise excitement and rewards! We&apos;re hosting a series of thrilling activities to keep your gaming experience fresh and engaging. Don&apos;t miss out!&nbsp;&nbsp;</p></span></p> 
+                    <div class="post-card-footer"> </div>
+                </div>
+                <div class="post-card-footer outside-footer">
+                    <img src="3d/skin/download%20%284%29.png" alt="" style="width: 49px; height: 53px;"><a href="profile/lDashi.html"></a>
+                    <div class="full-post-info ml-3 flex-grow-1 mr-3">
+                        <div class="full-post-author text-danger">A386</div>
+                        <div>May 15th, 2024</div>
+                    </div>
+                    <div class="readtime">2 minute read</div>
+                </div>
+            </div>
+        </div>
+        <div class="container text-left">
+            <div class="post-list mb-4">
+                <div class="post-card-large"> 
+</div>
+            </div>
+            <ul class="pagination d-inline-flex">
+                <li class="page-item  disabled">
+                    <a class="page-link" href="#">&laquo;</a>
+                </li>
+                <li class="page-item  active ">
+                    <a class="page-link" href="index.html">1</a>
+                </li>
+                <li class="page-item ">
+</li>
+                <li class="page-item ">
+                    <a class="page-link" href="index.html">&raquo;</a>
+                </li>
+            </ul>
+        </div>
+        <ul class="pagination d-inline-flex">
+            <li class="page-item  active "> <br> 
+            </li>
+            <li class="page-item "> <br> 
+            </li>
+            <li class="page-item "> <br> 
+            </li>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="chatbox" id="chatbox-bottom"></div>
+    </div>
+    <div class="footer large-footer">
+        <div class="top-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 footer-col footer-about">
+                        <div class="footer-text-header">Play Now</div>
+                        <p>WarNetwork is a multiplayer server, with many gamemodes to give players a better minecraft experience.</p>
+                        <p></p>
+                        <button class="btn btn-play" onclick="copyToClipboard('#play-ip')" data-toggle="tooltip" title="Click to copy"><span id="play-ip">play.Warsmp.fun</span>
+                            <i class="fa-solid fa-angles-right"></i>
+                        </button>                         
+                    </div>
+                    <div class="col-lg-4 footer-col">
+                        <div class="footer-text-header">Discord</div>
+                        
+                        <p>Join our discord community for server updates!</p>
+                        <a href="https://discord.com/invite/WarNetwork" class="btn btn-theme other-btn">Join 
+
+               </a> 
+                    </div>
+                    <div class="col-lg-4 footer-col">
+                        <div class="footer-text-header">Store</div>
+                        <p>Support us by purchasing ranks and cosmetics on our store!</p>
+                        <a href="https://discord.com/invite/WarNetwork" class="btn btn-theme other-btn">Shop Now <i class="fas fa-shopping-cart"></i></a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-bar">
+            <div class="container">
+                <div class="footer-copyright"> <span class="copyright-txt"><i class="fa-solid fa-copyright"></i>
+              2024 <span class="site">WarNetwork</span></span>
+                    <div class="icon-box"> <a class="icon" href="https://discord.gg/WarNetwork" target="_blank"><i id="discord-tw" class="fa-brands fa-discord"></i></a>
+                    </div>
+                </div>
+                <a href="https://coldfiredzn.com/" rel="noopener" target="_blank"> <picture>
+                        <source srcset="custom/templates/Cobalt/template_settings/coldfire.webp" type="image/webp"> 
+                        <source srcset="custom/templates/Cobalt/template_settings/coldfire.png">&nbsp;
+                    </picture> </a> 
+            </div>             
+        </div>
+    </div>
+    <script src="core/assets/plugins/prism/prism.js"></script>
+    <script src="core/assets/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="core/assets/plugins/tinymce_spoiler/js/spoiler.js"></script>
+    <script src="core/assets/vendor/jquery.cookie/jquery.cookie.js"></script>
+    <script src="npm/bootstrap-4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="npm/sweetalert2-11.2.0/dist/sweetalert2.all.min.js"></script>
+    <script src="npm/tsparticles-1.39.3/tsparticles.min.js"></script>
+    <script>
+			var particles = "yes";
+			var winter = "no";
+			var swal_server_copy = "Now go join the server!";
+			var discord_server = "1050731165759324230";
+			var mc_server = "play.warsmp.fun";
+			var ds_box = "yes";
+			var ds_breakpoint = "1050";
+			var users_online = "users online";
+			var user_online = "user online";
+			var players_online = "players online";
+			var player_online = "player online";
+			var server_offline = "Server is offline";
+		</script>
+    <script>var siteName = "Warnetwork", siteURL = "/", fullSiteUrl = "https://WarNetwork.net/", page = "index", pjsPath = "custom/templates/Cobalt/js/particles-settings.js", copied = "Copied!", close = "Close", loading = "Loading...", cookieNotice = "This website uses cookies to enhance your browsing experience. By registering on our website or closing this notice you agree with their use.", cookieAgree = "general/cookie_agree", noMessages = "No new messages", newMessage1 = "You have {{count}} new message", newMessagesX = "You have {{count}} new messages", noAlerts = "No new alerts", newAlert1 = "You have 1 new alert", newAlertsX = "You have {{count}} new alerts", debugging = "0", loggedIn = "0", cookie = "0", confirmDelete = "Are you sure you wish to delete this?", offline = "Offline", noPlayersOnline = "There are no players online.", bungeeInstance = "This server is a Bungee instance.", online = "Online", avatarSource = "https://cravatar.eu/helmhead/{identifier}/{size}.png", andMoreX = "and {{count}} more", loadingTime = "", route = "/", csrfToken = "3c64841140dd2059b3bf8429c1600e20"</script>
+    <script src="custom/templates/Cobalt/js/core/core.js"></script>
+    <script src="custom/templates/Cobalt/js/core/user.js"></script>
+    <script src="custom/templates/Cobalt/js/core/pages.js"></script>
+    <script>$.getJSON('/queries/servers/', function(data) {});</script>
+    <script>
+</script>
+</body>
